@@ -1,0 +1,92 @@
+body {
+  display: grid;
+  height: 98vh;
+  width: 99vw;
+  place-items: center;
+  border: 1px solid whitesmoke;
+}
+main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 130px 2px 350px 340px;
+  column-gap: 50px;
+  margin: 0 auto;
+  width: 130px + 350px + 340px + 100px;
+  height: 50vh;
+}
+
+footer {
+  margin: 0;
+  float: left;
+  position: absolute;
+  bottom: 22%;
+  font-size: 15px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 10px;
+  opacity: 15%;
+}
+
+.qoute {
+  display: flex;
+  text-align: right;
+  bottom: 50%;
+}
+
+.Marvin {
+  font-size: 1cm;
+  font-style: arial;
+  border-color: rgb(143, 136, 136);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 25%;
+  top: 50%;
+}
+
+p {
+  position: relative;
+  top: 50%;
+  margin: 0;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.line {
+  width: fit-content;
+  height: 100%;
+  border-left-style: dotted;
+  border-width: 1px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 10px;
+  opacity: 25%;
+}
+.number {
+  font-size: 35px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 10px;
+  opacity: 15%;
+  top: 25%;
+}
+.Chiwetel {
+  margin: 0;
+  float: left;
+  position: absolute;
+  font-size: 15px;
+  color: #999;
+  text-align: left;
+  margin-bottom: 100px;
+  bottom: 25%;
+}
+.year {
+  margin: 0;
+  float: left;
+  position: absolute;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  margin-bottom: 100px;
+  bottom: 23%;
+}
